@@ -6,7 +6,6 @@ import moment from 'moment';
 const App = () => {
   return (
     <div>
-      <Input />
       <DatePicker
         defaultValue={moment()}
         disabledDate={current =>
